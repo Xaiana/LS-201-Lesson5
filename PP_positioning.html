@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <title>positioning</title>
+
+    <meta charset="utf-8"/>
+
+    <style>
+
+      header {
+        position: absolute;
+        width: 400px;
+        top: 0;
+        left: 50%;
+        z-index: 2;
+        padding: 30px 15px;
+        margin-left: -200px;
+        font-weight: bold;
+        background: #ffffcc;
+        box-sizing: border-box;
+      }
+
+      header div {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+      }
+
+      section {
+        background: rgba(0, 0, 0, .6);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        position: fixed;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+      I'm positioned!
+      <div></div>
+    </header>
+
+    <section></section>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+  </body>
+
+</html>
